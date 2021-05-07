@@ -1,0 +1,50 @@
+body {
+  background-image:url(./assets/bg.jpg);
+  font-family: 'Poppins', sans-serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.search{
+  margin-top: 155px;
+}
+
+input[type=text], select {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+p{
+  font-size:x-large
+}
+
+#desc{
+  text-transform: capitalize;
+}
+
+div.box{
+  /* background-color: whitesmoke;
+  opacity: 0.5; */
+  text-align: left;
+  margin-left: 30px;
+  width: 180px;
+  height: 180px;
+  border-radius: 8px;
+}
+
+div.box h3,p {
+  margin-left: 10px;
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
